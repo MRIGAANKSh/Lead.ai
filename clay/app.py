@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 # Replace with your Clay API Key
-CLAY_API_KEY = "59e7adc2120e2f217a23"
+CLAY_API_KEY = 
 CLAY_API_BASE_URL = "https://api.clay.run/v1/leads"
 
 def get_hotel_emails(location="Ghaziabad, India", limit=10):

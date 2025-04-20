@@ -16,7 +16,7 @@ app.add_middleware(
 )
 
 # Replace with your actual VAPI API Key
-VAPI_API_KEY = "b101e8c4-f9e3-4474-b395-f6216d319b64"
+VAPI_API_KEY = 
 
 class CallRequest(BaseModel):
     phone: str

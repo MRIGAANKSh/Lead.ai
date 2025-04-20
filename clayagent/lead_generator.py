@@ -6,7 +6,7 @@ import os
 
 # 1️⃣ Google Search Function (Using SerpAPI)
 def search_leads(query):
-    api_key = "2a05bd86f3ea7be95de574ce1ac831767674f96cc14632fe7181b456d96d43b3"  # Replace with a valid key
+    api_key = # Replace with a valid key
     url = f"https://serpapi.com/search?q={query}&api_key={api_key}"
     
     try:
