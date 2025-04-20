@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Voice Agent Platform</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h2 class="text-center mb-0">AI Voice Agent Platform</h2>
+                    </div>
+                    <div class="card-body">
+                        <form id="agentForm">
+                            <div class="mb-3">
+                                <label for="phoneNumber" class="form-label">Client Phone Number</label>
+                                <input type="tel" class="form-control" id="phoneNumber" required 
+                                       placeholder="Enter phone number (e.g., +1234567890)">
+                            </div>
+                            <div class="mb-3">
+                                <label for="task" class="form-label">Task Description</label>
+                                <textarea class="form-control" id="task" rows="4" required 
+                                          placeholder="Describe the task for the AI agent..."></textarea>
+                            </div>
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-primary">Start Voice Call</button>
+                            </div>
+                        </form>
+                        <div id="status" class="mt-4">
+                            <div class="alert alert-info d-none" id="statusMessage"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 

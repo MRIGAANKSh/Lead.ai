@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lead Generator</title>
+    <script>
+        async function fetchLeads() {
+            const businessType = document.getElementById("businessType").value;
+            const location = document.getElementById("location").value;
+
+            if (!businessType || !location) {
+                alert("Please enter both business type and location.");
+                return;
+            }
+
+            const response = await fetch("/generate-leads", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ businessType, location }),
+            });
+
+            const data = await response.json();
+            const tableBody = document.getElementById("leadsTableBody");
+            tableBody.innerHTML = "";
+
+            data.leads.forEach(lead => {
+                const row = `<tr>
+                    <td>${lead.name}</td>
+                    <td>${lead.email || "N/A"}</td>
+                    <td>${lead.phone || "N/A"}</td>
+                    <td>${lead.website || "N/A"}</td>
+                </tr>`;
+                tableBody.innerHTML += row;
+            });
+        }
+    </script>
+</head>
+<body>
+    <h2>Lead Generator</h2>
+    <input type="text" id="businessType" placeholder="Enter Business Type">
+    <input type="text" id="location" placeholder="Enter Location">
+    <button onclick="fetchLeads()">Generate Leads</button>
+
+    <h3>Leads:</h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Business Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Website</th>
+            </tr>
+        </thead>
+        <tbody id="leadsTableBody"></tbody>
+    </table>
+</body>
+</html>

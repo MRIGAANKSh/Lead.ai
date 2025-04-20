@@ -1,0 +1,1032 @@
+[
+    {
+        "rank": 1,
+        "title": "Namaste Extension Restaurant",
+        "subTitle": "\u0928\u092e\u0938\u094d\u0924\u0947 \u090f\u0915\u094d\u0938\u091f\u0947\u0902\u0936\u0928 \u0930\u0947\u0938\u094d\u091f\u094b\u0930\u0947\u0902\u091f",
+        "price": "\u20b9200\u2013400",
+        "categoryName": "Restaurant",
+        "address": "Khasra No. 1128, Freehold Land, KW SRISHTI-2, near Ashiyana Chowk, Society, Raj Nagar Extension, Ghaziabad, Uttar Pradesh 201017, India",
+        "neighborhood": "Society, Raj Nagar Extension",
+        "street": "Khasra No. 1128, Freehold Land, KW SRISHTI-2, near Ashiyana Chowk",
+        "city": "Ghaziabad",
+        "postalCode": "201017",
+        "state": "Uttar Pradesh",
+        "countryCode": "IN",
+        "claimThisBusiness": false,
+        "location": {
+            "lat": 28.7029068,
+            "lng": 77.4301778
+        },
+        "totalScore": 5,
+        "permanentlyClosed": false,
+        "temporarilyClosed": false,
+        "placeId": "ChIJG_IGAgLxDDkR8C0trJ-ImC4",
+        "categories": [
+            "Restaurant"
+        ],
+        "fid": "0x390cf1020206f21b:0x2e98889fac2d2df0",
+        "cid": "3357583741574524400",
+        "reviewsCount": 32,
+        "imagesCount": 49,
+        "imageCategories": [],
+        "scrapedAt": "2025-04-20T09:17:57.988Z",
+        "googleFoodUrl": null,
+        "hotelAds": [],
+        "openingHours": [
+            {
+                "day": "Monday",
+                "hours": "11\u202fAM to 12\u202fAM"
+            },
+            {
+                "day": "Tuesday",
+                "hours": "11\u202fAM to 12\u202fAM"
+            },
+            {
+                "day": "Wednesday",
+                "hours": "11\u202fAM to 12\u202fAM"
+            },
+            {
+                "day": "Thursday",
+                "hours": "11\u202fAM to 12\u202fAM"
+            },
+            {
+                "day": "Friday",
+                "hours": "11\u202fAM to 12\u202fAM"
+            },
+            {
+                "day": "Saturday",
+                "hours": "11\u202fAM to 12\u202fAM"
+            },
+            {
+                "day": "Sunday",
+                "hours": "11\u202fAM to 12\u202fAM"
+            }
+        ],
+        "peopleAlsoSearch": [],
+        "placesTags": [],
+        "reviewsTags": [],
+        "additionalInfo": {
+            "Service options": [
+                {
+                    "Curbside pickup": true
+                },
+                {
+                    "No-contact delivery": true
+                },
+                {
+                    "Delivery": true
+                },
+                {
+                    "Drive-through": true
+                },
+                {
+                    "Takeout": true
+                },
+                {
+                    "Dine-in": true
+                }
+            ],
+            "Highlights": [
+                {
+                    "Sports": true
+                }
+            ],
+            "Popular for": [
+                {
+                    "Solo dining": true
+                }
+            ],
+            "Offerings": [
+                {
+                    "Coffee": true
+                },
+                {
+                    "Happy hour drinks": true
+                },
+                {
+                    "Happy hour food": true
+                },
+                {
+                    "Late-night food": true
+                },
+                {
+                    "Organic dishes": true
+                },
+                {
+                    "Quick bite": true
+                },
+                {
+                    "Salad bar": true
+                },
+                {
+                    "Small plates": true
+                },
+                {
+                    "Vegetarian options": true
+                },
+                {
+                    "Vegetarian options only": true
+                },
+                null,
+                null
+            ],
+            "Dining options": [
+                {
+                    "Breakfast": true
+                },
+                {
+                    "Brunch": true
+                },
+                {
+                    "Lunch": true
+                },
+                {
+                    "Dinner": true
+                },
+                {
+                    "Catering": true
+                },
+                {
+                    "Counter service": true
+                },
+                {
+                    "Dessert": true
+                },
+                {
+                    "Seating": true
+                }
+            ],
+            "Amenities": [
+                {
+                    "Restroom": true
+                },
+                {
+                    "Wi-Fi": true
+                },
+                {
+                    "Free Wi-Fi": true
+                }
+            ],
+            "Atmosphere": [
+                {
+                    "Casual": true
+                }
+            ],
+            "Crowd": [
+                {
+                    "Family-friendly": true
+                },
+                {
+                    "Groups": true
+                },
+                {
+                    "LGBTQ+ friendly": true
+                }
+            ],
+            "Planning": [
+                {
+                    "Reservations required": true
+                },
+                {
+                    "Accepts reservations": true
+                }
+            ],
+            "Payments": [
+                {
+                    "Cash-only": true
+                },
+                {
+                    "Credit cards": true
+                },
+                {
+                    "Debit cards": true
+                },
+                {
+                    "Google Pay": true
+                },
+                {
+                    "Credit cards": true
+                }
+            ],
+            "Children": [
+                {
+                    "Good for kids": true
+                },
+                {
+                    "Has changing table(s)": true
+                },
+                {
+                    "High chairs": true
+                },
+                {
+                    "Kids' menu": true
+                }
+            ],
+            "Parking": [
+                {
+                    "Free parking lot": true
+                },
+                {
+                    "Free street parking": true
+                }
+            ]
+        },
+        "gasPrices": [],
+        "url": "https://www.google.com/maps/search/?api=1&query=Namaste%20Extension%20Restaurant&query_place_id=ChIJG_IGAgLxDDkR8C0trJ-ImC4",
+        "searchPageUrl": "https://www.google.com/maps/search/restaurant/@28.74494288909482,77.3858448765468,15z?hl=en",
+        "searchString": "restaurant",
+        "language": "en",
+        "isAdvertisement": false,
+        "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipMWfCnWQMNFnMLcuoHmaYvYCR--rhs0TqMvXf9_=w425-h240-k-no",
+        "kgmid": "/g/11wj5b1wn3"
+    },
+    {
+        "rank": 2,
+        "title": "Lalaji's restaurant",
+        "subTitle": "\u0932\u093e\u0932\u093e\u091c\u0940\u0938 \u0930\u0947\u0938\u094d\u091f\u094b\u0930\u0947\u0902\u091f",
+        "description": "Classic dishes served in a stylish, contemporary space with framed art & wood furnishings.",
+        "price": "\u20b9200\u2013600",
+        "categoryName": "Restaurant",
+        "address": "RG5W+MW3, NH34, Sikrikala, Modinagar, Uttar Pradesh 201204, India",
+        "neighborhood": "Sikrikala",
+        "street": "RG5W+MW3, NH34",
+        "city": "Modinagar",
+        "postalCode": "201204",
+        "state": "Uttar Pradesh",
+        "countryCode": "IN",
+        "phone": "+91 73022 73302",
+        "phoneUnformatted": "+917302273302",
+        "claimThisBusiness": false,
+        "location": {
+            "lat": 28.809261,
+            "lng": 77.5474401
+        },
+        "totalScore": 4.6,
+        "permanentlyClosed": false,
+        "temporarilyClosed": false,
+        "placeId": "ChIJDSEPzSr1DDkRyMIuD40Dqjo",
+        "categories": [
+            "Restaurant"
+        ],
+        "fid": "0x390cf52acd0f210d:0x3aaa038d0f2ec2c8",
+        "cid": "4227195104620626632",
+        "reviewsCount": 1020,
+        "imagesCount": 360,
+        "imageCategories": [],
+        "scrapedAt": "2025-04-20T09:18:12.836Z",
+        "googleFoodUrl": null,
+        "hotelAds": [],
+        "openingHours": [
+            {
+                "day": "Monday",
+                "hours": "11\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Tuesday",
+                "hours": "11\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Wednesday",
+                "hours": "11\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Thursday",
+                "hours": "11\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Friday",
+                "hours": "11\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Saturday",
+                "hours": "11\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Sunday",
+                "hours": "11\u202fAM to 11\u202fPM"
+            }
+        ],
+        "peopleAlsoSearch": [],
+        "placesTags": [],
+        "reviewsTags": [],
+        "additionalInfo": {
+            "Service options": [
+                {
+                    "Outdoor seating": true
+                },
+                {
+                    "No-contact delivery": true
+                },
+                {
+                    "Delivery": true
+                },
+                {
+                    "Takeout": true
+                },
+                {
+                    "Dine-in": true
+                }
+            ],
+            "Highlights": [
+                {
+                    "Fireplace": true
+                },
+                {
+                    "Great dessert": true
+                }
+            ],
+            "Popular for": [
+                {
+                    "Lunch": true
+                },
+                {
+                    "Dinner": true
+                },
+                {
+                    "Solo dining": true
+                }
+            ],
+            "Accessibility": [
+                {
+                    "Wheelchair accessible restroom": true
+                },
+                {
+                    "Wheelchair accessible seating": true
+                }
+            ],
+            "Offerings": [
+                {
+                    "Alcohol": true
+                },
+                {
+                    "All you can eat": true
+                },
+                {
+                    "Cocktails": true
+                },
+                {
+                    "Coffee": true
+                },
+                {
+                    "Late-night food": true
+                },
+                {
+                    "Organic dishes": true
+                },
+                {
+                    "Quick bite": true
+                },
+                {
+                    "Small plates": true
+                },
+                {
+                    "Vegan options": true
+                },
+                {
+                    "Vegetarian options": true
+                },
+                {
+                    "Vegetarian options only": true
+                }
+            ],
+            "Dining options": [
+                {
+                    "Breakfast": true
+                },
+                {
+                    "Brunch": true
+                },
+                {
+                    "Lunch": true
+                },
+                {
+                    "Dinner": true
+                },
+                {
+                    "Catering": true
+                },
+                {
+                    "Dessert": true
+                },
+                {
+                    "Seating": true
+                }
+            ],
+            "Amenities": [
+                {
+                    "Restroom": true
+                }
+            ],
+            "Atmosphere": [
+                {
+                    "Casual": true
+                },
+                {
+                    "Cozy": true
+                },
+                {
+                    "Trendy": true
+                }
+            ],
+            "Crowd": [
+                {
+                    "College students": true
+                },
+                {
+                    "Family-friendly": true
+                },
+                {
+                    "Groups": true
+                }
+            ],
+            "Planning": [
+                {
+                    "Accepts reservations": true
+                }
+            ],
+            "Payments": [
+                {
+                    "Credit cards": true
+                },
+                {
+                    "Debit cards": true
+                },
+                {
+                    "Google Pay": true
+                },
+                {
+                    "Meal coupons": true
+                },
+                {
+                    "NFC mobile payments": true
+                },
+                {
+                    "Credit cards": true
+                }
+            ],
+            "Children": [
+                {
+                    "Good for kids": true
+                },
+                {
+                    "Good for kids birthday": true
+                },
+                {
+                    "Kids' menu": true
+                }
+            ],
+            "Parking": [
+                {
+                    "Free parking lot": true
+                },
+                {
+                    "Free street parking": true
+                },
+                null
+            ]
+        },
+        "gasPrices": [],
+        "url": "https://www.google.com/maps/search/?api=1&query=Lalaji's%20restaurant&query_place_id=ChIJDSEPzSr1DDkRyMIuD40Dqjo",
+        "searchPageUrl": "https://www.google.com/maps/search/restaurant/@28.895354193620676,77.45438530000001,15z?hl=en",
+        "searchString": "restaurant",
+        "language": "en",
+        "isAdvertisement": false,
+        "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AB5caB_9XJ_VcE3uDRBuGkq6mVknB676i5G3XDE859Ealf2Ezmnb06HYhqJnYUo21mwudKBGP2NlKkRgPJwlgHnWKzKgxxjtFurAIxeiqCgIq5d3apln58eKSlIoMpqLnCc9nNvUwnZjlg=w408-h544-k-no",
+        "kgmid": "/g/11j1_gjh0j"
+    },
+    {
+        "rank": 1,
+        "title": "Lalaji's restaurant",
+        "subTitle": "\u0932\u093e\u0932\u093e\u091c\u0940\u0938 \u0930\u0947\u0938\u094d\u091f\u094b\u0930\u0947\u0902\u091f",
+        "description": "Classic dishes served in a stylish, contemporary space with framed art & wood furnishings.",
+        "price": "\u20b9200\u2013600",
+        "categoryName": "Restaurant",
+        "address": "RG5W+MW3, NH34, Sikrikala, Modinagar, Uttar Pradesh 201204, India",
+        "neighborhood": "Sikrikala",
+        "street": "RG5W+MW3, NH34",
+        "city": "Modinagar",
+        "postalCode": "201204",
+        "state": "Uttar Pradesh",
+        "countryCode": "IN",
+        "phone": "+91 73022 73302",
+        "phoneUnformatted": "+917302273302",
+        "claimThisBusiness": false,
+        "location": {
+            "lat": 28.809261,
+            "lng": 77.5474401
+        },
+        "totalScore": 4.6,
+        "permanentlyClosed": false,
+        "temporarilyClosed": false,
+        "placeId": "ChIJDSEPzSr1DDkRyMIuD40Dqjo",
+        "categories": [
+            "Restaurant"
+        ],
+        "fid": "0x390cf52acd0f210d:0x3aaa038d0f2ec2c8",
+        "cid": "4227195104620626632",
+        "reviewsCount": 1020,
+        "imagesCount": 360,
+        "imageCategories": [],
+        "scrapedAt": "2025-04-20T09:18:28.037Z",
+        "googleFoodUrl": null,
+        "hotelAds": [],
+        "openingHours": [
+            {
+                "day": "Monday",
+                "hours": "11\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Tuesday",
+                "hours": "11\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Wednesday",
+                "hours": "11\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Thursday",
+                "hours": "11\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Friday",
+                "hours": "11\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Saturday",
+                "hours": "11\u202fAM to 11\u202fPM"
+            },
+            {
+                "day": "Sunday",
+                "hours": "11\u202fAM to 11\u202fPM"
+            }
+        ],
+        "peopleAlsoSearch": [],
+        "placesTags": [],
+        "reviewsTags": [],
+        "additionalInfo": {
+            "Service options": [
+                {
+                    "Outdoor seating": true
+                },
+                {
+                    "No-contact delivery": true
+                },
+                {
+                    "Delivery": true
+                },
+                {
+                    "Takeout": true
+                },
+                {
+                    "Dine-in": true
+                }
+            ],
+            "Highlights": [
+                {
+                    "Fireplace": true
+                },
+                {
+                    "Great dessert": true
+                }
+            ],
+            "Popular for": [
+                {
+                    "Lunch": true
+                },
+                {
+                    "Dinner": true
+                },
+                {
+                    "Solo dining": true
+                }
+            ],
+            "Accessibility": [
+                {
+                    "Wheelchair accessible restroom": true
+                },
+                {
+                    "Wheelchair accessible seating": true
+                }
+            ],
+            "Offerings": [
+                {
+                    "Alcohol": true
+                },
+                {
+                    "All you can eat": true
+                },
+                {
+                    "Cocktails": true
+                },
+                {
+                    "Coffee": true
+                },
+                {
+                    "Late-night food": true
+                },
+                {
+                    "Organic dishes": true
+                },
+                {
+                    "Quick bite": true
+                },
+                {
+                    "Small plates": true
+                },
+                {
+                    "Vegan options": true
+                },
+                {
+                    "Vegetarian options": true
+                },
+                {
+                    "Vegetarian options only": true
+                }
+            ],
+            "Dining options": [
+                {
+                    "Breakfast": true
+                },
+                {
+                    "Brunch": true
+                },
+                {
+                    "Lunch": true
+                },
+                {
+                    "Dinner": true
+                },
+                {
+                    "Catering": true
+                },
+                {
+                    "Dessert": true
+                },
+                {
+                    "Seating": true
+                }
+            ],
+            "Amenities": [
+                {
+                    "Restroom": true
+                }
+            ],
+            "Atmosphere": [
+                {
+                    "Casual": true
+                },
+                {
+                    "Cozy": true
+                },
+                {
+                    "Trendy": true
+                }
+            ],
+            "Crowd": [
+                {
+                    "College students": true
+                },
+                {
+                    "Family-friendly": true
+                },
+                {
+                    "Groups": true
+                }
+            ],
+            "Planning": [
+                {
+                    "Accepts reservations": true
+                }
+            ],
+            "Payments": [
+                {
+                    "Credit cards": true
+                },
+                {
+                    "Debit cards": true
+                },
+                {
+                    "Google Pay": true
+                },
+                {
+                    "Meal coupons": true
+                },
+                {
+                    "NFC mobile payments": true
+                },
+                {
+                    "Credit cards": true
+                }
+            ],
+            "Children": [
+                {
+                    "Good for kids": true
+                },
+                {
+                    "Good for kids birthday": true
+                },
+                {
+                    "Kids' menu": true
+                }
+            ],
+            "Parking": [
+                {
+                    "Free parking lot": true
+                },
+                {
+                    "Free street parking": true
+                },
+                null
+            ]
+        },
+        "gasPrices": [],
+        "url": "https://www.google.com/maps/search/?api=1&query=Lalaji's%20restaurant&query_place_id=ChIJDSEPzSr1DDkRyMIuD40Dqjo",
+        "searchPageUrl": "https://www.google.com/maps/search/restaurant/@28.805107410905162,77.55719593517983,15z?hl=en",
+        "searchString": "restaurant",
+        "language": "en",
+        "isAdvertisement": false,
+        "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AB5caB_9XJ_VcE3uDRBuGkq6mVknB676i5G3XDE859Ealf2Ezmnb06HYhqJnYUo21mwudKBGP2NlKkRgPJwlgHnWKzKgxxjtFurAIxeiqCgIq5d3apln58eKSlIoMpqLnCc9nNvUwnZjlg=w408-h544-k-no",
+        "kgmid": "/g/11j1_gjh0j"
+    },
+    {
+        "rank": 4,
+        "title": "Try The Taste",
+        "subTitle": "\u0924\u0930\u0940 \u0926 \u091f\u0947\u0938\u094d\u091f",
+        "price": "\u20b91\u2013200",
+        "categoryName": "North Indian restaurant",
+        "address": "Shop no 6, near byob weekend, Raj Nagar Extension, Ghaziabad, Uttar Pradesh 201017, India",
+        "neighborhood": "Raj Nagar Extension",
+        "street": "Shop no 6, near byob weekend",
+        "city": "Ghaziabad",
+        "postalCode": "201017",
+        "state": "Uttar Pradesh",
+        "countryCode": "IN",
+        "phone": "+91 93139 78249",
+        "phoneUnformatted": "+919313978249",
+        "claimThisBusiness": false,
+        "location": {
+            "lat": 28.7069811,
+            "lng": 77.4274485
+        },
+        "totalScore": 4.9,
+        "permanentlyClosed": false,
+        "temporarilyClosed": false,
+        "placeId": "ChIJEV-U5ebxDDkRjb5es16-vvc",
+        "categories": [
+            "North Indian restaurant"
+        ],
+        "fid": "0x390cf1e6e5945f11:0xf7bebe5eb35ebe8d",
+        "cid": "17851915286888758925",
+        "reviewsCount": 27,
+        "imagesCount": 10,
+        "imageCategories": [],
+        "scrapedAt": "2025-04-20T09:18:44.335Z",
+        "googleFoodUrl": null,
+        "hotelAds": [],
+        "openingHours": [
+            {
+                "day": "Monday",
+                "hours": "12 to 11\u202fPM"
+            },
+            {
+                "day": "Tuesday",
+                "hours": "12 to 11\u202fPM"
+            },
+            {
+                "day": "Wednesday",
+                "hours": "12 to 11\u202fPM"
+            },
+            {
+                "day": "Thursday",
+                "hours": "12 to 11\u202fPM"
+            },
+            {
+                "day": "Friday",
+                "hours": "12 to 11\u202fPM"
+            },
+            {
+                "day": "Saturday",
+                "hours": "12 to 11\u202fPM"
+            },
+            {
+                "day": "Sunday",
+                "hours": "12 to 11\u202fPM"
+            }
+        ],
+        "peopleAlsoSearch": [],
+        "placesTags": [],
+        "reviewsTags": [],
+        "additionalInfo": {
+            "Service options": [
+                {
+                    "Curbside pickup": true
+                },
+                {
+                    "Delivery": true
+                },
+                {
+                    "Drive-through": true
+                },
+                {
+                    "Takeout": true
+                },
+                {
+                    "Dine-in": true
+                }
+            ],
+            "Popular for": [
+                {
+                    "Dinner": true
+                },
+                {
+                    "Solo dining": true
+                }
+            ],
+            "Offerings": [
+                {
+                    "Quick bite": true
+                },
+                {
+                    "Small plates": true
+                },
+                null
+            ],
+            "Dining options": [
+                {
+                    "Lunch": true
+                },
+                {
+                    "Dinner": true
+                }
+            ],
+            "Atmosphere": [
+                {
+                    "Casual": true
+                }
+            ],
+            "Crowd": [
+                {
+                    "Groups": true
+                }
+            ],
+            "Payments": [
+                {
+                    "NFC mobile payments": true
+                }
+            ],
+            "Children": [
+                {
+                    "Good for kids": true
+                }
+            ],
+            "Parking": [
+                {
+                    "Free street parking": true
+                }
+            ]
+        },
+        "gasPrices": [],
+        "url": "https://www.google.com/maps/search/?api=1&query=Try%20The%20Taste&query_place_id=ChIJEV-U5ebxDDkRjb5es16-vvc",
+        "searchPageUrl": "https://www.google.com/maps/search/restaurant/@28.714860628189648,77.4201150882734,15z?hl=en",
+        "searchString": "restaurant",
+        "language": "en",
+        "isAdvertisement": false,
+        "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipP5lQjYzo74W9nGwtLaTj9dMQ1_Sq1bHJKwasux=w408-h544-k-no",
+        "kgmid": "/g/11srs3l807"
+    },
+    {
+        "rank": 1,
+        "title": "Khao Piyo Restaurant",
+        "subTitle": "\u0916\u093e\u0913 \u092a\u093f\u092f\u094b \u0930\u0947\u0938\u094d\u091f\u094b\u0930\u0947\u0902\u091f",
+        "price": null,
+        "categoryName": "Restaurant",
+        "address": "Shop No - 14, Sector C4, Trans Delhi Signature City, Ghaziabad, Uttar Pradesh 201102, India",
+        "neighborhood": "Trans Delhi Signature City",
+        "street": "Shop No - 14, Sector C4",
+        "city": "Ghaziabad",
+        "postalCode": "201102",
+        "state": "Uttar Pradesh",
+        "countryCode": "IN",
+        "phone": "+91 88908 90290",
+        "phoneUnformatted": "+918890890290",
+        "claimThisBusiness": false,
+        "location": {
+            "lat": 28.7789174,
+            "lng": 77.2648243
+        },
+        "totalScore": 4.5,
+        "permanentlyClosed": false,
+        "temporarilyClosed": false,
+        "placeId": "ChIJ95TgXgD_DDkRr1Y2Jeu1bkE",
+        "categories": [
+            "Restaurant"
+        ],
+        "fid": "0x390cff005ee094f7:0x416eb5eb253656af",
+        "cid": "4714905881449748143",
+        "reviewsCount": 21,
+        "imagesCount": 43,
+        "imageCategories": [],
+        "scrapedAt": "2025-04-20T09:19:02.625Z",
+        "googleFoodUrl": null,
+        "hotelAds": [],
+        "openingHours": [
+            {
+                "day": "Monday",
+                "hours": "11:30\u202fAM to 9:30\u202fPM"
+            },
+            {
+                "day": "Tuesday",
+                "hours": "11:30\u202fAM to 9:30\u202fPM"
+            },
+            {
+                "day": "Wednesday",
+                "hours": "11:30\u202fAM to 9:30\u202fPM"
+            },
+            {
+                "day": "Thursday",
+                "hours": "11:30\u202fAM to 9:30\u202fPM"
+            },
+            {
+                "day": "Friday",
+                "hours": "11:30\u202fAM to 9:30\u202fPM"
+            },
+            {
+                "day": "Saturday",
+                "hours": "11:30\u202fAM to 9:30\u202fPM"
+            },
+            {
+                "day": "Sunday",
+                "hours": "11:30\u202fAM to 9:30\u202fPM"
+            }
+        ],
+        "peopleAlsoSearch": [],
+        "placesTags": [],
+        "reviewsTags": [],
+        "additionalInfo": {
+            "Service options": [
+                {
+                    "Kerbside pickup": true
+                },
+                {
+                    "No-contact delivery": true
+                },
+                {
+                    "Delivery": true
+                },
+                {
+                    "Takeaway": true
+                },
+                {
+                    "Dine-in": true
+                }
+            ],
+            "Popular for": [
+                {
+                    "Dinner": true
+                },
+                {
+                    "Solo dining": true
+                }
+            ],
+            "Offerings": [
+                {
+                    "Quick bite": true
+                },
+                {
+                    "Small plates": true
+                }
+            ],
+            "Dining options": [
+                {
+                    "Dinner": true
+                }
+            ],
+            "Atmosphere": [
+                {
+                    "Casual": true
+                },
+                {
+                    "Quiet": true
+                }
+            ],
+            "Crowd": [
+                {
+                    "Groups": true
+                }
+            ],
+            "Children": [
+                {
+                    "Good for kids": true
+                }
+            ]
+        },
+        "gasPrices": [],
+        "url": "https://www.google.com/maps/search/?api=1&query=Khao%20Piyo%20Restaurant&query_place_id=ChIJ95TgXgD_DDkRr1Y2Jeu1bkE",
+        "searchPageUrl": "https://www.google.com/maps/search/restaurant/@28.77502514999999,77.24876402964037,15z?hl=en",
+        "searchString": "restaurant",
+        "language": "en",
+        "isAdvertisement": false,
+        "imageUrl": "https://lh3.googleusercontent.com/p/AF1QipN_WDpnu5G5R8UHg60vNw7y4fnX9MQ1T9gKY1CR=w408-h544-k-no",
+        "kgmid": "/g/11lmm25q8_"
+    }
+]

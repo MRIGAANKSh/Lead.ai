@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VAPI Call Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            text-align: center;
+        }
+        .input-group {
+            margin: 15px 0;
+            text-align: left;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #333;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        textarea {
+            height: 100px;
+            resize: vertical;
+        }
+        button {
+            width: 100%;
+            margin: 20px 0;
+            padding: 12px;
+            font-size: 16px;
+            background: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background: #45a049;
+        }
+        #status {
+            margin-top: 15px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .success {
+            background-color: #dff0d8;
+            color: #3c763d;
+        }
+        .error {
+            background-color: #f2dede;
+            color: #a94442;
+        }
+        .loading {
+            background-color: #d9edf7;
+            color: #31708f;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>VAPI Call System</h2>
+        <div class="input-group">
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" placeholder="Enter recipient's phone number" required>
+        </div>
+        <div class="input-group">
+            <label for="context">Call Context:</label>
+            <textarea id="context" placeholder="Enter the context for the call" required></textarea>
+        </div>
+        <button onclick="startCall()">Start Call</button>
+        <p id="status"></p>
+    </div>
+
+    <script>
+        function startCall() {
+            const phone = document.getElementById("phone").value;
+            const context = document.getElementById("context").value;
+            const statusElement = document.getElementById("status");
+
+            if (!phone || !context) {
+                statusElement.textContent = "Please fill in all fields!";
+                statusElement.className = "error";
+                return;
+            }
+
+            statusElement.textContent = "Initiating call...";
+            statusElement.className = "loading";
+
+            fetch("http://127.0.0.1:8000/call-lead/", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ phone, context })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.status === "Call initiated") {
+                    statusElement.textContent = "Call initiated successfully!";
+                    statusElement.className = "success";
+                } else {
+                    statusElement.textContent = "Error: " + JSON.stringify(data);
+                    statusElement.className = "error";
+                }
+            })
+            .catch(error => {
+                statusElement.textContent = "Request failed! Please check if the server is running.";
+                statusElement.className = "error";
+                console.error(error);
+            });
+        }
+    </script>
+</body>
+</html>

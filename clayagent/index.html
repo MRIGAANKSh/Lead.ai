@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lead Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        input, button {
+            padding: 10px;
+            margin: 10px;
+            width: 80%;
+            max-width: 300px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Lead Generator</h2>
+    
+    <form id="leadForm">
+        <input type="text" id="businessType" placeholder="Enter Business Type" required><br>
+        <input type="text" id="location" placeholder="Enter Location" required><br>
+        <button type="submit">Generate Leads</button>
+    </form>
+
+    <p id="status"></p>
+
+    <script>
+        document.getElementById("leadForm").addEventListener("submit", async function(event) {
+            event.preventDefault();
+
+            let businessType = document.getElementById("businessType").value;
+            let location = document.getElementById("location").value;
+            let status = document.getElementById("status");
+
+            status.innerText = "Generating leads... Please wait.";
+
+            let response = await fetch("/generate-leads", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ businessType, location })
+            });
+
+            let result = await response.json();
+            if (result.success) {
+                status.innerHTML = `✅ Leads generated! <a href='/leads.csv' download>Download CSV</a>`;
+            } else {
+                status.innerText = "❌ Failed to generate leads.";
+            }
+        });
+    </script>
+
+</body>
+</html>
